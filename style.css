@@ -1,32 +1,38 @@
-#navbar a {
-    color: #e3e0e0
+body {
+    background-color: #23272a;
+    font-family: 'Comfortaa', cursive;
+    color: #e3e0e0;
 }
 
-#navbar {
+.baniere1 {
     background-color: #191919;
     box-shadow: 3px 4px 18px 3px rgb(0 0 0 / 50%);
+    height: 158px;
+}
+
+.baniere1 img {
+    float: left;
+    padding-top: 10px;
     padding-left: 10px;
-    padding-right: 10px;
 }
 
-.navbar-text-sfait:hover:after {
-    width: 100%;
-    background: #b0ff00;
-}
-
-.navbar-text-sfait:after {
-    content: '';
-    display: block;
-    margin: auto;
-    height: 1px;
-    width: 0;
-    transition: width .5s ease, background-color .5s ease;
-}
-
-.navbar-text-sfait {
-    font-size: 17px;
+.baniere1 h1 {
     text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
 }
+
+.baniere2 {
+    background-color: #05070b;
+    box-shadow: 3px 4px 18px 3px rgb(0 0 0 / 50%);
+    height: 158px;
+}
+
+.baniere2 h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
 
 @media screen and (max-width: 266px) {
     #navbarpicture {
@@ -37,3 +43,4 @@
         margin: auto auto;
     }
 }
+
