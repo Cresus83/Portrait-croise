@@ -4,6 +4,11 @@ body {
     color: #e3e0e0;
 }
 
+#bg {
+    background-image: url("images/logo_welovemmi4x.png");
+    background-size: 20%;
+}
+
 .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
