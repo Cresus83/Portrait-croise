@@ -3,6 +3,11 @@ body {
     font-family: 'Comfortaa', cursive;
     color: #e3e0e0;
 }
+
+.img-portrait {
+    width:50%;
+    padding-top:20px;
+}
 .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
