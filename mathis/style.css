@@ -2,6 +2,9 @@ body {
     background-color: #23272a;
     font-family: 'Comfortaa', cursive;
     color: #e3e0e0;
+    margin:0;
+    padding:0;
+    height:100%;
 }
 
 .img-portrait {
@@ -78,4 +81,16 @@ body {
     -ms-transform: scale(1.20); /* Internet Explorer 9 */
     -o-transform: scale(1.20); /* Opera */
     transform: scale(1.20);
+}
+.footer {
+    bottom:0;
+    width:100%;
+    height: 50px;
+    background-color:#191919;
+    margin-top: 1000px;
+
+    }
+
+.text {
+    text-align: center;
 }

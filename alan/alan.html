@@ -51,6 +51,12 @@
             </div>
         </div>
 
-    </body>
-    
-    </html>
+        <div class="footer" id="footer"> 
+            <p class="text"> Fait avec ❤ par Alan, Matthieu et Mathis <br>
+            © WEBEGRAM #DATE# - Tous droits réservés</p>
+        </div>
+        
+            <script>document.getElementById(`footer`).innerHTML = document.getElementById(`footer`).innerHTML.replace(`#DATE#`, new Date().getFullYear());</script>
+        
+        </body>
+        </html>
