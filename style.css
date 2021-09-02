@@ -4,10 +4,6 @@ body {
     color: #e3e0e0;
 }
 
-.img-portrait {
-    width:50%;
-    padding-top:20px;
-}
 .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -75,4 +71,4 @@ body {
     -ms-transform: scale(1.20); /* Internet Explorer 9 */
     -o-transform: scale(1.20); /* Opera */
     transform: scale(1.20);
-}
+}   
