@@ -6,7 +6,6 @@ body {
 
 .img-portrait {
     width:50%;
-    padding-top:20px;
 }
 .unselectable {
     -webkit-touch-callout: none;
