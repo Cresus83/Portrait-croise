@@ -51,6 +51,113 @@
             </div>
         </div>
 
-    </body>
+        <!-- <footer>
+            <svg viewBox="0 0 120 10">
+                <defs>
+                    <mask id="xxx">
+                        <circle cx="7" cy="12" r="40" fill="#fff"/>
+                    </mask>
+        
+                    <filter id="goo">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+                        <feColorMatrix in="blur" mode="matrix" values="
+                   1 0 0 0 0
+                   0 1 0 0 0
+                   0 0 1 0 0
+                   0 0 0 13 -9" result="goo"/>
+                        <feBlend in="SourceGraphic" in2="goo"/>
+                    </filter>
+                    <path id="wave"
+                          d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z"/>
+                </defs>
+        
+                <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-10"></use>
+            </svg>
+        
+            <div class="text-white text-center text-lg-start unselectable" id="footer">
+                <div class="container text-center text-md-left">
+                    <div class="row">
+                        <div class="col-md-4 mx-auto">
+                            <img class="img-fluid" src="https://www.sfait.net/images/logo-sfait.png" alt="logo-sfait"
+                                 style="padding-bottom: 10px; height: 50px">
+                            <section class="text-center">
+                                <a class="btn btn-primary btn-floating m-1 text-white"
+                                   style="background-color: #ac2bac;border: none;"
+                                   href="https://www.instagram.com/sfait_fr/"
+                                   target="_blank" role="button"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-primary btn-floating m-1 text-white"
+                                   style="background-color: #ff0000;border: none;"
+                                   href="https://www.youtube.com/channel/UCDlbOGHcoR3y71MIohYZ-4g" target="_blank"
+                                   role="button"><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-primary btn-floating m-1 text-white"
+                                   style="background-color: #7289DA;border: none;" href="https://discord.gg/fYpd3CQ"
+                                   target="_blank" role="button"><i class="fab fa-discord"></i></a>
+                                <a class="btn btn-primary btn-floating m-1 text-white"
+                                   style="background-color: #55acee;border: none;" href="https://twitter.com/sfait_fr"
+                                   target="_blank" role="button"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-primary btn-floating m-1 text-white"
+                                   style="background-color: #3b5998;border: none;" href="https://www.facebook.com/SFAIT.FR/"
+                                   target="_blank" role="button"><i class="fab fa-facebook-f"></i></a>
+                            </section>
+        
+                        </div>
+                        <hr class="clearfix w-100 d-md-none">
+                        <div class="col-md-2 mx-auto">
+                            <ul class="list-unstyled">
+                                <li><a href="https://www.sfait.net/index.php">Accueil</a></li>
+                                <li><a href="https://download-center.sfait.net">Download center</a></li>
+                                <li><a href="https://www.sfait.net/assistance.php">Assistance</a></li>
+                                <li><a href="https://fr.discordinvites.net/reactions/554507118187774042" target="_blank">Avis
+                                        clients</a></li>
+                            </ul>
+                        </div>
+                        <hr class="clearfix w-100 d-md-none">
+                        <div class="col-md-2 mx-auto">
+                            <ul class="list-unstyled">
+                                <li><a href="https://shop.sfait.net/nos-services.php">Nos services</a></li>
+                                <li><a href="https://communaute-sfait.forumactif.com/forum" target="_blank">Forum</a></li>
+                                <li><a href="https://www.sfait.net/nous-contacter.php">Nous contacter</a></li>
+                                <li><a href="https://www.sfait.net/track-order.php">Suivi commande</a></li>
+                            </ul>
+                        </div>
+                        <hr class="clearfix w-100 d-md-none">
+                        <div class="col-md-2 mx-auto">
+                            <ul class="list-unstyled">
+                                <li><a href="https://www.sfait.net/faq.php">FAQ</a></li>
+                                <li><a href="https://www.sfait.net/about-us.php">À Propos de nous</a></li>
+                                <li><a href="https://www.sfait.net/pass'generator.php">Pass'generator</a></li>
+                                <li><a href="https://sfait-fr.statuspage.io">Status</a></li>
+                            </ul>
+                        </div>
+                        <div class="text-center" style="margin: 0 auto;">
+                            <h5>Paiements sécurisés</h5>
+                            <img class="img-fluid payments" src="https://www.sfait.net/images/cartebleue.svg" alt="CB-logo"
+                                 style="padding-bottom: 10px; height: 36px">
+                            <img class="img-fluid payments" src="https://www.sfait.net/images/mastercard.svg"
+                                 alt="Mastercard-logo"
+                                 style="padding-bottom: 10px; height: 36px">
+                            <img class="img-fluid payments" src="https://www.sfait.net/images/visa.svg" alt="Visa-logo"
+                                 style="padding-bottom: 10px; height: 36px">
+                            <img class="img-fluid payments" src="https://www.sfait.net/images/paypal.svg" alt="PayPal-logo"
+                                 style="padding-bottom: 10px; height: 36px">
+                        </div>
+                    </div>
+                </div>
+                <div id="copyright" class="footer-copyright text-center py-3"
+                     style="background-color: rgba(0, 0, 0, 0.2);color: #abb2bf;">
+                    &lt;/&gt; avec ❤ par <a href="https://github.com/Cresus83" target="_blank">Crésus</a>, <a href="https://github.com/ThomasDlv" target="_blank">Thomas</a>,
+                    <a href="https://github.com/Ytrap" target="_blank">Ytrap</a> et <a href="#">Nova²</a></br>
+                    © <a href="https://www.sfait.net/index.php">SFAIT</a> 2019 - #DATE# - Tous droits réservés.<br>
+        
+                    <a href="https://www.sfait.net/cgu.php">CGU</a> - <a href="https://www.sfait.net/cgv.php">CGV</a> - <a
+                            href="https://www.sfait.net/cookies.php">Cookies</a>
+                </div>
+            </div>
+        </footer>
+        
+        <script>document.getElementById(`copyright`).innerHTML = document.getElementById(`copyright`).innerHTML.replace(`#DATE#`, new Date().getFullYear());</script> -->
+        
     
+    </body>
+
     </html>
