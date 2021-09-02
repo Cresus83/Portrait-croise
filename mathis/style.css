@@ -8,6 +8,9 @@ body {
     width:50%;
     padding-top:50px;
 }
+.selected {
+    box-shadow: 0 8px 20px -4px #95abbb;
+}
 .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
